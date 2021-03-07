@@ -13,14 +13,14 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
 - PHP (Laravel ou Lumen).
  
 ### 1.2. Autenticação
-  Nossa aplicação demendará de autenticação utilizando JWT.
+  Nossa aplicação demandará de autenticação utilizando JWT.
 
 ### 1.3. Cadastro de usuários
   Crie recursos para usuários c/ 2 níveis de acesso (Administrador, Colaborador) e realize restrição para que somente Administradores autenticados consigam acesso.
   
 - #### 1.3.1. Endpoints Necessários
     - Listagem geral.
-    - listagem por id.
+    - Listagem por id.
     - Criação.
     - Edição.
     - Deleção.
@@ -29,7 +29,7 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
   Crie recursos para Entrada de Veículos com restrição para que qualquer nível de usuário autenticado consiga acesso.
   
 - #### 1.4.1. Dados Indispensáveis
-    - Placa do veículo,
+    - Placa do veículo.
     - Modelo.
     - Marca.
     - Cor.
@@ -39,7 +39,7 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
 
 - #### 1.4.2. Endpoints Necessários
     - Listagem geral.
-    - listagem por id.
+    - Listagem por id.
     - Criação.
     - Edição.
     - Deleção.
@@ -48,13 +48,13 @@ Você poderá utilizar qualquer uma das linguagens abaixo descritas:
   Crie recursos para Valores de Permanência de Veículos no estacionamento com restrição para que somente administradores autenticados consigam acesso.
   
 - #### 1.5.1. Dados Indispensáveis
-    - Tipo de Veículo,
+    - Tipo de Veículo.
     - Quantidade de horas.
     - Valor.
 
 - #### 1.5.2. Endpoints Necessários
     - Listagem geral.
-    - listagem por id.
+    - Listagem por id.
     - Criação.
     - Edição.
     - Deleção.

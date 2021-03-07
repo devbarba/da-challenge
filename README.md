@@ -7,7 +7,7 @@ Este teste tem como objetivo conhecer um pouco mais como você programa, e como 
 Você poderá utilizar qualquer uma das linguagens abaixo descritas:
 - Node.JS (Express, Adonis, Nest.JS, Happi).
 - PHP (Laravel ou Lumen).
-- 
+
 Esperamos que você desenvolva um serviço que forneça uma API REST que implemente os recursos a seguir e respeite os seguintes requisitos técnicos:
 
 ### 1.1. Autenticação:

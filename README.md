@@ -4,29 +4,31 @@ Este teste tem como objetivo conhecer um pouco mais como você programa, e como 
 
 ## 1. O que você precisa fazer?
 
-Você poderá utilizar qualquer uma das linguagens abaixo descritas:
-- Node.JS (Express, Adonis, Nest.JS, Happi).
-- PHP (Laravel ou Lumen).
-
 Esperamos que você desenvolva um serviço que forneça uma API REST que implemente os recursos a seguir e respeite os seguintes requisitos técnicos:
 
-### 1.1. Autenticação:
+### 1.1 Linguagens
+Você poderá utilizar qualquer uma das linguagens abaixo descritas:
+
+- Node.JS (Express, Adonis, Nest.JS, Happi).
+- PHP (Laravel ou Lumen).
+ 
+### 1.2. Autenticação
   Nossa aplicação demendará de autenticação utilizando JWT.
 
-### 1.2. Cadastro de usuários.
+### 1.3. Cadastro de usuários
   Crie recursos para usuários c/ 2 níveis de acesso (Administrador, Colaborador) e realize restrição para que somente Administradores autenticados consigam acesso.
   
-  #### 1.2.1. Endpoints Necessários
+- #### 1.3.1. Endpoints Necessários
     - Listagem geral.
     - listagem por id.
     - Criação.
     - Edição.
     - Deleção.
 
-### 1.3. Entrada de Veículos
+### 1.4. Entrada de Veículos
   Crie recursos para Entrada de Veículos com restrição para que qualquer nível de usuário autenticado consiga acesso.
   
-  #### 1.3.1. Dados Indispensáveis
+- #### 1.4.1. Dados Indispensáveis
     - Placa do veículo,
     - Modelo.
     - Marca.
@@ -35,22 +37,22 @@ Esperamos que você desenvolva um serviço que forneça uma API REST que impleme
     - Horário de saída.
     - Valor a ser pago pelo permanência.
 
-  #### 1.3.2. Endpoints Necessários
+- #### 1.4.2. Endpoints Necessários
     - Listagem geral.
     - listagem por id.
     - Criação.
     - Edição.
     - Deleção.
 
-### 1.4. Entrada de Veículos
+### 1.5. Valores de Permanência
   Crie recursos para Valores de Permanência de Veículos no estacionamento com restrição para que somente administradores autenticados consigam acesso.
   
-  #### 1.4.1. Dados Indispensáveis
+- #### 1.5.1. Dados Indispensáveis
     - Tipo de Veículo,
     - Quantidade de horas.
     - Valor.
 
-  #### 1.4.2. Endpoints Necessários
+- #### 1.5.2. Endpoints Necessários
     - Listagem geral.
     - listagem por id.
     - Criação.
